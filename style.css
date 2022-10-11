@@ -1,0 +1,28 @@
+.card{
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    width: 150px;
+    height: 120px;
+    border: 4px solid black;
+}
+.card::before{
+    font-family: sans-serif;
+    content: "Cool Card";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    border: 4px solid black;
+    background-color: gold;
+    bottom: -25px;
+    right: 20px;
+    border-radius: 10px;
+}
